@@ -13,7 +13,7 @@ const SignIn = ({ onRouteChange, loadUser }) => {
     }
 
     const onSubmitSignIn = () => {
-        fetch('https://smartbrainapi-xmm5.onrender.com/image/signin', {
+        fetch('https://smartbrainapi-xmm5.onrender.com/signin', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
