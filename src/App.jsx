@@ -59,7 +59,7 @@ function App() {
     }
     setImageUrl(input);
 
-    fetch('http://localhost:3000/imageurl', {
+    fetch('https://smartbrainapi-xmm5.onrender.com/imageurl', {
       method: 'POST',
       mode: 'cors',
       headers: {
@@ -88,7 +88,7 @@ function App() {
     })
     
 
-    fetch('http://localhost:3000/image', {
+    fetch('https://smartbrainapi-xmm5.onrender.com/image', {
       method: 'put',
       mode: 'cors',
       headers: {'Content-Type': 'application/json'},
