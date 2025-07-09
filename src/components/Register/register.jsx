@@ -18,7 +18,7 @@ function Register ({ onRouteChange, loadUser }) {
     }
 
     const onSubmitSignIn = () => {
-        fetch('http://localhost:3000/register', {
+        fetch('https://smartbrainapi-xmm5.onrender.com/image/register', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
